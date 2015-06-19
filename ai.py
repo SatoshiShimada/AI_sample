@@ -5,12 +5,10 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-fp = open("wagahaiwanekodearu.txt", "r")
+fp = open("wagahaiwa_nekodearu.txt", "r")
 ustr = fp.readline()
 
-ustr = unicode("""本来プログラム言語といえばはじめに文法が決まっていて、
-そこに文法に従った文字列を入れると実行可能な何かができあがるというのが普通の流れです。
-これを逆にしたらどうなるかと思ったのが今回の話題です。""", "utf-8")
+ustr = unicode("""テスト文字列です。""", "utf-8")
 
 # ustr = unicode(fp.read(), "utf-8")
 

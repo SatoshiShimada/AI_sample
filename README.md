@@ -20,6 +20,18 @@ windowsにおいて、ai.pyファイルを実行する。(python2.xのインス�
 
 * 単語の辞書データを作成する。（xmlフォーマットが最適？）
 
+## 注意
+
+本リポジトリの`wagahaiwa_nekodearu.txt`は
+
+青空文庫　夏目　漱石　我輩は猫である
+
+http://www.aozora.gr.jp/cards/000148/card789.html
+
+http://www.aozora.gr.jp/cards/000148/files/789_ruby_5639.zip
+
+より拝借させて頂きました
+
 ## Author
 
 [Satoshi Shimada](satoshishimada.github.io)
