@@ -8,9 +8,9 @@ sys.setdefaultencoding('utf-8')
 fp = open("wagahaiwa_nekodearu.txt", "r")
 ustr = fp.readline()
 
-ustr = unicode("""テスト文字列です。""", "utf-8")
+# ustr = unicode("""テスト文字列です。""", "utf-8")
 
-# ustr = unicode(fp.read(), "utf-8")
+ustr = unicode(fp.read(), "utf-8")
 
 def splitChar(str):
     i = 0
