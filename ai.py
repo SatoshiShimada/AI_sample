@@ -5,7 +5,13 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-fp = open("wagahaiwa_nekodearu.txt", "r")
+if len(sys.argv) != 2:
+	print "usage: python ai.py [file]"
+	sys.exit(0)
+
+in_file = sys.argv[1]
+#fp = open("wagahaiwa_nekodearu.txt", "r")
+fp = open(in_file, "r")
 ustr = fp.readline()
 
 # ustr = unicode("""テスト文字列です。""", "utf-8")
