@@ -10,11 +10,8 @@ if len(sys.argv) != 2:
 	sys.exit(0)
 
 in_file = sys.argv[1]
-#fp = open("wagahaiwa_nekodearu.txt", "r")
 fp = open(in_file, "r")
 ustr = fp.readline()
-
-# ustr = unicode("""テスト文字列です。""", "utf-8")
 
 ustr = unicode(fp.read(), "utf-8")
 
